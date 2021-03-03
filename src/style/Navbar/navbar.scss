@@ -1,0 +1,39 @@
+.navbar-wrapper {
+  text-decoration: none;
+  width: 80vw;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+
+  .name {
+    font-weight: 600;
+  }
+  .navbarlogo{
+    vertical-align:text-bottom;
+    box-decoration-break: none;
+  }
+  
+
+  .links-wrapper {
+    button {
+      text-decoration: none;
+      padding: 10px;
+      font-family: "Open Sans";
+      opacity: 0.6;
+      transition: all 0.2s ease-in-out;
+      font-size: 16px;
+      background-color: transparent;
+      outline: none;
+      border: 0px;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .active {
+      color: black;
+    }
+  }
+}
